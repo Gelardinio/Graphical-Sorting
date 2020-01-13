@@ -33,6 +33,7 @@
 		</Compiler>
 		<Unit filename="bubbleSort.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="mergeSort.cpp" />
 		<Unit filename="sorting.h" />
 		<Extensions>
 			<code_completion />

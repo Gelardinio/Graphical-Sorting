@@ -10,7 +10,7 @@ int main() {
 
     srand(time(0));
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 10; i++) {
         arr.push_back(rand() % 400 + 1);
     }
 
