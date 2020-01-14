@@ -1,9 +1,12 @@
 # depslib dependency file v1.0
-1578926771 source:p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\main.cpp
+1579018614 source:p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\main.cpp
 	<iostream>
 	"sorting.h"
 	<vector>
 	<time.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
 
 1578927470 p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\sorting.h
 	<iostream>
@@ -16,4 +19,19 @@
 1578927199 source:p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\mergesort.cpp
 	<iostream>
 	"sorting.h"
+
+1579018681 source:p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\allegroinitialization.cpp
+	<iostream>
+	"allegro.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
+
+1579018701 p:\ics4u\github\6-graphical-sorting-assignment-gerald-liu\graphicalsorting\allegro.h
+	<iostream>
+	<vector>
+	<string>
+	<allegro5/allegro.h>
 
