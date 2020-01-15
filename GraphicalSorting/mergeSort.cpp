@@ -1,27 +1,18 @@
 #include <iostream>
-#include <fstream>
+#include "sorting.h"
 #include <vector>
 
 using namespace std;
 
-vector<int> mergeSort(vector<int> values);
-vector<int> sortMerge(vector<int> values1, vector<int> values2);
+MergeSort::MergeSort() {
 
-int main () {
-
-    vector<int> values;
-    values = {1,6,3,2,7,5,4,2,19,32,3};
-
-    //values = sortMerge(values, values2);
-
-     values = mergeSort(values);
-
-    for (int i=0; i<values.size(); i++){
-        cout << values[i] << " ";
-    }
 }
 
-vector<int> mergeSort(vector<int> values) {
+MergeSort::~MergeSort() {
+
+}
+
+vector<int> MergeSort::mergeSort(vector<int> values) {
     if (values.size() < 2){
         return values;
     } else {
@@ -36,7 +27,7 @@ vector<int> mergeSort(vector<int> values) {
     }
 }
 
-vector<int> sortMerge(vector<int> values1, vector<int> values2) {
+vector<int> MergeSort::sortMerge(vector<int> values1, vector<int> values2) {
     vector <int> newArr;
 
     int i = 0;
@@ -65,5 +56,3 @@ vector<int> sortMerge(vector<int> values1, vector<int> values2) {
 
     return newArr;
 }
-
-
