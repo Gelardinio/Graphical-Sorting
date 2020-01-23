@@ -1,0 +1,1 @@
+When first running the program, head to "Allegroinitialization.cpp" and on line 20, comment out "al_init()", compile the code, and then take out the comments from "al_init()". Then procced to run the program and it should work fine. This is because I use a different allegro installation at home.
