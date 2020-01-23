@@ -55,7 +55,7 @@ int main() {
     for (int i = 0; i < steps.size(); i++) {
         arr = steps[i];
         displaySort(button_font, arr, pointerPos[i]);
-        al_rest(0.01);
+        al_rest(0.1);
     }
 
     while (true) {
